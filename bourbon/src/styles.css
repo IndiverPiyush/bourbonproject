@@ -1,0 +1,77 @@
+/* You can add global styles to this file, and also import other style files */
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+/* font-family: 'Protest Riot', sans-serif; */
+@import "../node_modules/animate.css/animate.min.css";
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.container {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  /* margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; */
+}
+
+/* colors */
+/* 
+#F7F052
+#F28123
+#D34E24
+#563F1B
+#38726C
+
+#A13333
+#B3541E
+#040303
+#461111
+*/
+
+/* xs */
+@media (min-width: 475px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* 2xl */
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
